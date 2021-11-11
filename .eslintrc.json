@@ -32,16 +32,25 @@
       }
     ],
     "@typescript-eslint/explicit-function-return-type": [
-      "error",
+      "off",
       {
         "allowExpressions": true
       }
     ],
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
-
-    //    "react/jsx-filename-extension": [
-    //      1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
-    //    ]
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "react/require-default-props": "off",
+    "no-underscore-dangle": "off",
+    "class-methods-use-this": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/interactive-supports-focus": "off",
+    "react/jsx-props-no-spreading": "off",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error"
+    ],
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": ["warn"]
   },
   "settings": {
     "import/resolver": {
